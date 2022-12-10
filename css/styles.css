@@ -125,6 +125,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   background-image: url("/images/Img-overlay.png"), url("/images/Img-11.jpg");
+  background-position: center;
   max-width: 1600px;
 }
 .header-one {
