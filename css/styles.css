@@ -43,6 +43,17 @@ ul {
 .logo-bicolor {
   color: #000;
 }
+.contact-icon {
+  fill: #757575;
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+.contact-icon:hover {
+  fill: #2196f3;
+}
 .nav-links-list {
   display: flex;
   align-items: center;
@@ -92,13 +103,24 @@ ul {
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
+  fill: #757575;
 }
-.contact-items:hover {
+.contact-items-box:hover {
   color: #2196f3;
+  fill: #2196f3;
+}
+.contact-items-box:focus {
+  color: #2196f3;
+  fill: #2196f3;
+}
+
+/* .contact-items:hover {
+  color: #2196f3;
+  fill: #2196f3;
 }
 .contact-items:focus {
   color: #2196f3;
-}
+} */
 
 /* section 1 header */
 
@@ -215,6 +237,55 @@ ul {
   margin-top: 30px;
   margin-bottom: 10px;
   color: #212121;
+}
+.social-media-list li {
+  fill: #afb1b8;
+  list-style: none;
+  padding: auto 12px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-top: 16px;
+  gap: 10px;
+}
+.social-media-list li:hover {
+  fill: #fff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+.social-media-list {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.social-media-icon {
+  display: block;
+  margin: 12px;
+}
+
+/* section our clients */
+
+.our-client-box {
+  padding: 94px 0;
+}
+.our-client-icons li {
+  list-style: none;
+  fill: #afb1b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+.our-client-icons li:hover {
+  fill: #2196f3;
+  cursor: pointer;
+  border-color: #2196f3;
+}
+.our-client-icons {
+  display: flex;
+  gap: 30px;
 }
 
 /* section portfolio */
