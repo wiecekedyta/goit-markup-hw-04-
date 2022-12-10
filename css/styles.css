@@ -114,14 +114,6 @@ ul {
   fill: #2196f3;
 }
 
-/* .contact-items:hover {
-  color: #2196f3;
-  fill: #2196f3;
-}
-.contact-items:focus {
-  color: #2196f3;
-} */
-
 /* section 1 header */
 
 .section-one {
@@ -132,6 +124,8 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-image: url("/images/Img-11.jpg");
+  max-width: 1600px;
 }
 .header-one {
   font-size: 44px;
