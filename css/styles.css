@@ -401,3 +401,42 @@ ul {
   background-color: #2f303a;
   padding: 60px 0;
 }
+.footer-links-header {
+  font-size: 16px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer-style {
+  display: flex;
+  justify-content: left;
+}
+.footer-social-links {
+  padding-left: 70px;
+}
+.footer-social-media-list li {
+  fill: #fff;
+  list-style: none;
+  padding: auto 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin-top: 16px;
+  gap: 10px;
+}
+.footer-social-media-list li:hover {
+  fill: #fff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+.footer-social-media-list {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-social-media-icon {
+  display: block;
+  margin: 12px;
+}
