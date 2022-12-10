@@ -44,15 +44,12 @@ ul {
   color: #000;
 }
 .contact-icon {
-  fill: #757575;
+  fill: currentColor;
   display: inline-flex;
   align-items: center;
   align-content: center;
   vertical-align: middle;
   padding-right: 10px;
-}
-.contact-icon:hover {
-  fill: #2196f3;
 }
 .nav-links-list {
   display: flex;
@@ -103,15 +100,15 @@ ul {
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
-  fill: #757575;
+  fill: currentColor;
 }
-.contact-items-box:hover {
+.contact-items:hover {
   color: #2196f3;
-  fill: #2196f3;
+  fill: currentColor;
 }
-.contact-items-box:focus {
+.contact-items:focus {
   color: #2196f3;
-  fill: #2196f3;
+  fill: currentColor;
 }
 
 /* section 1 header */
