@@ -124,7 +124,8 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("/images/Img-overlay.png"), url("/images/Img-11.jpg");
+  background-image: url("../images/Img-overlay.png"),
+    url("../images/Img-11.jpg");
   background-position: 50% 50%;
   max-width: 1600px;
   margin: 0 auto;
