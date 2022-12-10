@@ -185,6 +185,12 @@ ul {
   gap: 30px;
   box-sizing: border-box;
 }
+.adventages-icons {
+  padding: 25px 100px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
 
 /* section 3 czym sie zajmujemy */
 
