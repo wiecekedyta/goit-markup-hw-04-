@@ -80,11 +80,17 @@ ul {
 .list-style:hover {
   color: #2196f3;
 }
+.list-style:focus {
+  color: #2196f3;
+}
 .link-color:link,
 .link-color:visited {
   color: #212121;
 }
 .link-color:hover {
+  color: #2196f3;
+}
+.link-color:focus {
   color: #2196f3;
 }
 .nav-contact-list {
@@ -252,6 +258,11 @@ ul {
   background-color: #2196f3;
   cursor: pointer;
 }
+.social-media-list li:focus {
+  fill: #fff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
 .social-media-list {
   display: flex;
   gap: 10px;
@@ -279,6 +290,11 @@ ul {
   padding: 16px 32px;
 }
 .our-client-icons li:hover {
+  fill: #2196f3;
+  cursor: pointer;
+  border-color: #2196f3;
+}
+.our-client-icons li:focus {
   fill: #2196f3;
   cursor: pointer;
   border-color: #2196f3;
@@ -338,6 +354,11 @@ ul {
   color: #757575;
 }
 .figure-description:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
+.figure-description:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
@@ -425,6 +446,11 @@ ul {
   gap: 10px;
 }
 .footer-social-media-list li:hover {
+  fill: #fff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+.footer-social-media-list li:focus {
   fill: #fff;
   background-color: #2196f3;
   cursor: pointer;
