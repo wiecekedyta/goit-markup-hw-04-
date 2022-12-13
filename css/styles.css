@@ -82,6 +82,7 @@ ul {
 }
 .list-style:focus {
   color: #2196f3;
+  outline: none;
 }
 .link-color:link,
 .link-color:visited {
@@ -92,6 +93,7 @@ ul {
 }
 .link-color:focus {
   color: #2196f3;
+  outline: none;
 }
 .nav-contact-list {
   display: flex;
@@ -115,6 +117,7 @@ ul {
 .contact-items:focus {
   color: #2196f3;
   fill: currentColor;
+  outline: none;
 }
 
 /* section 1 header */
@@ -244,34 +247,36 @@ ul {
   margin-bottom: 10px;
   color: #212121;
 }
-.social-media-list li {
-  fill: #afb1b8;
-  list-style: none;
-  padding: auto 12px;
+.social-media-list {
+  color: #afb1b8;
+  padding: 12px 12px;
   border: 1px solid #fff;
   border-radius: 50%;
   margin-top: 16px;
   gap: 10px;
+  display: block;
 }
-.social-media-list li:hover {
-  fill: #fff;
+.social-media-list:hover {
+  color: #fff;
   background-color: #2196f3;
   cursor: pointer;
 }
-.social-media-list li:focus {
-  fill: #fff;
+.social-media-list:focus {
+  color: #fff;
   background-color: #2196f3;
   cursor: pointer;
+  outline: none;
 }
-.social-media-list {
+.social-media-grid {
   display: flex;
   gap: 10px;
   align-items: center;
   justify-content: center;
+  list-style: none;
 }
 .social-media-icon {
   display: block;
-  margin: 12px;
+  fill: currentColor;
 }
 
 /* section our clients */
@@ -285,23 +290,27 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  padding: 16px 32px;
 }
-.our-client-icons li:hover {
+.our-client-button:hover {
   fill: #2196f3;
   cursor: pointer;
   border-color: #2196f3;
 }
-.our-client-icons li:focus {
+.our-client-button:focus {
   fill: #2196f3;
   cursor: pointer;
   border-color: #2196f3;
+  outline: none;
 }
 .our-client-icons {
   display: flex;
   gap: 30px;
+}
+.our-client-button {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 16px 32px;
 }
 
 /* section portfolio */
@@ -336,6 +345,7 @@ ul {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  outline: none;
 }
 .button-list {
   display: flex;
@@ -415,6 +425,7 @@ ul {
 }
 .contact-footer:focus {
   color: #2196f3;
+  outline: none;
 }
 
 .footer-box {
@@ -439,21 +450,26 @@ ul {
 .footer-social-media-list li {
   fill: #fff;
   list-style: none;
-  padding: auto 12px;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
   margin-top: 16px;
   gap: 10px;
 }
-.footer-social-media-list li:hover {
-  fill: #fff;
+.footer-social-media-link {
+  padding: 12px 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: #fff;
+  display: block;
+}
+.footer-social-media-link:hover {
+  color: #fff;
   background-color: #2196f3;
   cursor: pointer;
 }
-.footer-social-media-list li:focus {
-  fill: #fff;
+.footer-social-media-link:focus {
+  color: #fff;
   background-color: #2196f3;
   cursor: pointer;
+  outline: none;
 }
 .footer-social-media-list {
   display: flex;
@@ -463,5 +479,5 @@ ul {
 }
 .footer-social-media-icon {
   display: block;
-  margin: 12px;
+  fill: currentColor;
 }
